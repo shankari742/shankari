@@ -1,0 +1,46 @@
+*{
+   box-sizing: border-box;
+   margin: 0%;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+.main{
+    height: 80%;
+    width: 90%;
+    background-color: blueviolet;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.box1{
+    height: 100px;
+    width: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(227, 26, 60);
+}
+.box2{
+    height:0px;
+    width:50% ;
+    background-color: cornsilk;
+    overflow: hidden;
+    transition: 5s;
+    position:relative;
+}
+.two{
+    cursor: pointer;
+}
+.three{
+    cursor: pointer;
+    display: none;
+}
